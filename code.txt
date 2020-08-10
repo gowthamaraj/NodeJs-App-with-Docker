@@ -10,3 +10,4 @@ docker logs mongo | tail
 docker logs mongo -f
 
 docker-compose -f mongo.yaml up
+docker-compose -f mongo.yaml down
