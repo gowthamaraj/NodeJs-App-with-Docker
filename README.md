@@ -10,3 +10,5 @@
 5. docker run -d -p 8081:8081 -e ME_CONFIG_MONGODB_ADMINUSERNAME=admin -e ME_CONFIG_MONGODB_ADMINPASSWORD=admin --net mongo-network --name mongo-express -e ME_CONFIG_MONGODB_SERVER=mongodb mongo-express
 6. docker logs mongo | tail
 7. docker logs mongo -f
+8. docker-compose -f docker-compose.yaml up
+9. docker-compose -f docker-compose.yaml down
